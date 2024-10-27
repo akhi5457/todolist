@@ -4,3 +4,7 @@
 *.png binary
 
 .gitignore text eol=lf
+
+# Enforce LF line endings for JSON and JS files
+*.json text eol=lf
+*.js text eol=lf
