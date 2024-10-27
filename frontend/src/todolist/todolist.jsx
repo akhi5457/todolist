@@ -95,7 +95,7 @@ const TodoList = () => {
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', height: '100vh', backgroundColor: 'beige' }}>
-      <LocalizationProvider dateAdapter={AdapterDayjs}>
+      {/* <LocalizationProvider dateAdapter={AdapterDayjs}> */}
         <Box
           sx={{
             width: 400,
@@ -178,7 +178,7 @@ const TodoList = () => {
             </Table>
           </TableContainer>
         </Box>
-      </LocalizationProvider>
+      {/* </LocalizationProvider> */}
     </div>
   );
 };
