@@ -2,3 +2,5 @@
 
 *.jpg binary
 *.png binary
+
+.gitignore text eol=lf
